@@ -6,9 +6,9 @@
 */
 class Life_Settings {
     /* Persistent Settings */
-    save_civ_weapons = false; //Allow civilians to save weapons on them?
+    save_civ_weapons = true; //Allow civilians to save weapons on them?
     save_virtualItems = true; //Save Virtual items (all sides)?
-    save_playerStats = false; //Save food & water (all sides)?
+    save_playerStats = true; //Save food & water (all sides)?
     save_veh_virtualItems = false; //Save Virtual items for vehicles (all sides)?
     save_veh_gear = false; //Save Gear for vehicles (all sides)?
 
@@ -17,14 +17,14 @@ class Life_Settings {
     clothing_masks[] = { "H_Shemag_olive", "H_Shemag_khk", "H_Shemag_tan", "H_Shemag_olive_hs", "H_ShemagOpen_khk", "H_ShemagOpen_tan", "G_Balaclava_blk", "G_Balaclava_combat", "G_Balaclava_lowprofile", "G_Balaclava_oli", "G_Bandanna_aviator", "G_Bandanna_beast", "G_Bandanna_blk", "G_Bandanna_khk", "G_Bandanna_oli", "G_Bandanna_shades", "G_Bandanna_sport", "G_Bandanna_tan", "U_O_GhillieSuit", "U_I_GhillieSuit", "U_B_GhillieSuit", "H_RacingHelmet_1_black_F", "H_RacingHelmet_1_red_F", "H_RacingHelmet_1_white_F", "H_RacingHelmet_1_blue_F", "H_RacingHelmet_1_yellow_F", "H_RacingHelmet_1_green_F", "H_RacingHelmet_1_F", "H_RacingHelmet_2_F", "H_RacingHelmet_3_F", "H_RacingHelmet_4_F" };
 
     /* Cop related settings */
-    cops_online_min = 5; //minimum cops online for robbing a bank
+    cops_online_min = 8; //minimum cops online for robbing a bank
 
     /* Medic related settings*/
-    allow_medic_weapons = true; // true allows medics to hold/use weapons - false disallows
+    allow_medic_weapons = false; // true allows medics to hold/use weapons - false disallows
 
     /* Revive system settings */
-    revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-    revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+    revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
+    revive_fee = 10000; //Revive fee that players have to pay and medics / EMS are rewarded
 
     /* House related settings */
     house_limit = 5; //Maximum amount of houses a player can own.
@@ -35,27 +35,27 @@ class Life_Settings {
     gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
     /* Player-related systems */
-    enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
+    enable_fatigue = false; //Set to false to disable the ARMA 3 false system.
     total_maxWeight = 24; //Static variable for the maximum weight allowed without having a backpack
     paycheck_period = 5; //Scaled in minutes
 
     /* Impound Variables */
-    impound_car = 350; //Price for impounding cars
-    impound_boat = 250; //Price for impounding boats
-    impound_air = 850; //Price for impounding helicopters / planes
+    impound_car = 8000; //Price for impounding cars
+    impound_boat = 10000; //Price for impounding boats
+    impound_air = 15000; //Price for impounding helicopters / planes
 
     /* Initial Bank Amount */
-    bank_cop = 7000; //Amount of cash on bank for new cops
-    bank_civ = 3000; //Amount of cash on bank for new civillians
-    bank_med = 6500; //Amount of cash on bank for new medics
+    bank_cop = 200000; //Amount of cash on bank for new cops
+    bank_civ = 200000; //Amount of cash on bank for new civillians
+    bank_med = 200000; //Amount of cash on bank for new medics
 
     /* Paycheck Amount */
-    paycheck_cop = 500; //Payment for cops
-    paycheck_civ = 350; //Payment for civillians
-    paycheck_med = 450; //Payment for medics
+    paycheck_cop = 5000; //Payment for cops
+    paycheck_civ = 3500; //Payment for civillians
+    paycheck_med = 5000; //Payment for medics
 
     /* Federal Reserve settings */
-    noatm_timer = 10; //Time in minutes that players won't be able to deposit his money after selling stolen gold
+    noatm_timer = 20; //Time in minutes that players won't be able to deposit his money after selling stolen gold
 
     /* Spyglass settings */
     spyglass_init = false; //Enable or disable spyglass
@@ -64,7 +64,7 @@ class Life_Settings {
     global_ATM = true; //Allow users to access any ATM on the map.
 
     /* Pump settings */
-    Pump_service = false; //Allow users to use pump service on the map. Default = false
+    Pump_service = true; //Allow users to use pump service on the map. Default = false
 
     /* Skins settings */
     civ_skins = false; //Enable or disable civilian skins. Before enabling, you must add all the SEVEN files to textures folder. (It must be named as: civilian_uniform_1.jpg, civilian_uniform_2.jpg...civilian_uniform_6.jpg, civilian_uniform_7.jpg)
