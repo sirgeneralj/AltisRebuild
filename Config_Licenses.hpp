@@ -179,189 +179,189 @@ class Licenses {
         side = "cop";
     };
 	
-	class cg {
+	class clmg1	{
         variable = "LMG1";
         displayName = "STR_License_LMG1";
         price = 8000;
         illegal = false;
         side = "cop";
     }; //SPAR=16S
-	class cg {
+	class clmg2 {
         variable = "LMG2";
         displayName = "STR_License_LMG2";
         price = 16000;
         illegal = false;
         side = "cop";
     }; //LIM-85
-	class cg {
+	class clmg3 {
         variable = "LMG3";
         displayName = "STR_License_LMG3";
         price = 32000;
         illegal = false;
         side = "cop";
     }; //MK-200
-	class cg {
+	class clmg4 {
         variable = "LMG4";
         displayName = "STR_License_LMG4";
         price = 64000;
         illegal = false;
         side = "cop";
     }; //Zaphir
-	class cg {
+	class clmg5 {
         variable = "LMG5";
         displayName = "STR_License_LMG5";
         price = 128000;
         illegal = false;
         side = "cop";
     }; //Navid
-	class cg {
+	class clmg6 {
         variable = "LMG6";
         displayName = "STR_License_LMG6";
         price = 256000;
         illegal = false;
         side = "cop";
     }; //SPMG
-	class cg {
+	class cmk1 {
         variable = "MRK1";
         displayName = "STR_License_MRK1";
         price = 2500;
         illegal = false;
         side = "cop";
     }; //MK18 EMR / Mk14
-	class cg {
+	class cmk2 {
         variable = "MRK2";
         displayName = "STR_License_MRK2";
         price = 5000;
         illegal = false;
         side = "cop";
     }; //MAR-10
-	class cg {
+	class cmk3 {
         variable = "MRK3";
         displayName = "STR_License_MRK3";
         price = 10000;
         illegal = false;
         side = "cop";
     }; //MK-1 EMR
-	class cg {
+	class cmk4 {
         variable = "MRK4";
         displayName = "STR_License_MRK4";
         price = 20000;
         illegal = false;
         side = "cop";
     }; //CMR-76
-	class cg {
+	class cmk5 {
         variable = "MRK5";
         displayName = "STR_License_MRK5";
         price = 40000;
         illegal = false;
         side = "cop";
     }; //Cyrus 
-	class cg {
+	class cmk6 {
         variable = "MRK6";
         displayName = "STR_License_MRK6";
         price = 80000;
         illegal = false;
         side = "cop";
     }; //ASP-KIR
-	class cg {
+	class csn1 {
         variable = "SNP1";
         displayName = "STR_License_SNP1";
         price = 100000;
         illegal = false;
         side = "cop";
     }; //LYNX
-	class cg {
+	class csn2 {
         variable = "SNP2";
         displayName = "STR_License_SNP2";
         price = 200000;
         illegal = false;
         side = "cop";
     }; //M320
-	class cg {
+	class cps1 {
         variable = "LPIST1";
         displayName = "STR_License_LPIST1";
         price = 15000;
         illegal = false;
         side = "cop";
     }; //Lethal Pistol
-	class cg {
+	class cqb1 {
         variable = "CQB1";
         displayName = "STR_License_CQB1";
         price = 10000;
         illegal = false;
         side = "cop";
     }; //MXC
-	class cg {
+	class cqb2 {
         variable = "CQB2";
         displayName = "STR_License_CQB2";
         price = 20000;
         illegal = false;
         side = "cop";
     }; //Vermin
-	class cg {
+	class clnch {
         variable = "LAUNCH";
         displayName = "STR_License_LAUNCH";
         price = 250000;
         illegal = false;
         side = "cop";
     }; //MX3GL
-	class cg {
+	class cflnch {
         variable = "FLAUNCH";
         displayName = "STR_License_FLAUNCH";
         price = 200000;
         illegal = false;
         side = "cop";
     }; //Car 95 With Launcher
-	class cg {
+	class cfrif {
         variable = "FRIF";
         displayName = "STR_License_FRIF";
         price = 20000;
         illegal = false;
         side = "cop";
     }; //Car-95
-	class cg {
+	class cflmg {
         variable = "FLMG";
         displayName = "STR_License_FLMG";
         price = 50000;
         illegal = false;
         side = "cop";
     }; //CAR-95-1 LMG
-	class cg {
+	class cansp {
         variable = "ASNP";
         displayName = "STR_License_ASNP";
         price = 1000000;
         illegal = false;
         side = "cop";
     }; //Attack Sniper Type 115
-	class cg {
+	class crang {
         variable = "RANG";
         displayName = "STR_License_RANG";
         price = 50000;
         illegal = false;
         side = "cop";
     }; //Range Finders
-	class cg {
+	class ctherm {
         variable = "THERM";
         displayName = "STR_License_THERM";
         price = 100000;
         illegal = false;
         side = "cop";
     }; //Laser Degs
-	class cg {
+	class ctws {
         variable = "TWS";
         displayName = "STR_License_TWS";
         price = 1000000;
         illegal = false;
         side = "cop";
     }; //TWS
-	class cg {
+	class cflash {
         variable = "RGN";
         displayName = "STR_License_RGN";
         price = 20000;
         illegal = false;
         side = "cop";
     }; //Flash
-	class cg {
+	class crgo {
         variable = "RGO";
         displayName = "STR_License_RGO";
         price = 200000;
