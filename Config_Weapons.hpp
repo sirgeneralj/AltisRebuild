@@ -189,6 +189,55 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 100, -1 }
         };
     };
+class cop_command {
+        name = "Altis Command Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 4, "You must be a Command Rank!" };
+        items[] = {
+            { "hgun_ACPC2_F", "", 7500, -1 },
+            { "SMG_02_ACO_F", "", 10000, -1 },
+			{ "srifle_GM6_F", "", 100000, -1 },
+			{ "launch_Titan_F", "", 100000, -1 },
+			{ "arifle_MX_Black_F", "", 20000, -1 },
+			{ "arifle_MXC_Black_F", "", 15000, -1 },
+            { "arifle_MXM_Black_F", "", 30000, -1 },
+			{ "srifle_EBR_F", "", 35000, -1 },
+			{ "srifle_LRR_F	", "", 100000, -1 },
+			{ "arifle_MX_GL_Black_F", "", 25000, -1 },
+			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },
+			{ "arifle_ARX_blk_F", "", 50000, -1 },
+			{ "MMG_02_black_F", "", 100000, -1 },
+			{ "srifle_DMR_05_blk_F", "", 75000, -1 },
+			{ "srifle_DMR_04_F", "", 75000, -1 },
+			{ "srifle_DMR_03_F", "", 50000, -1 },
+			{ "srifle_DMR_02_F", "", 7500, -1 },
+			{ "LMG_03_F", "", 75000, -1 },
+			{ "arifle_MX_SW_Black_F", "", 35000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "9Rnd_45ACP_Mag", "", 50 },
+            { "30Rnd_9x21_Mag", "", 100 },
+            { "30Rnd_65x39_caseless_mag", "", 500, -1 }
+			{ "5Rnd_127x108_Mag", "", 1000 },
+			{ "5Rnd_127x108_APDS_Mag", "", 1200 },
+			{ "20Rnd_762x51_Mag", "", 750 },
+			{ "7Rnd_408_Mag", "", 1000 },
+			{ "3Rnd_SmokeGreen_Grenade_shell", "", 2000 },
+			{ "30Rnd_556x45_Stanag", "", 200 },
+			{ "30Rnd_65x39_caseless_green", "", 500 },
+			{ "10Rnd_93x64_DMR_05_Mag", "", 750 },
+			{ "10Rnd_127x54_Mag", "", 750 },
+			{ "10Rnd_338_Mag", "", 750 },
+			{ "200Rnd_556x45_Box_F", "", 800 },
+			{ "100Rnd_65x39_caseless_mag", "", 550},
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 },
+		
+        };
+    };
 
     //Medic Shops
     class med_basic {
