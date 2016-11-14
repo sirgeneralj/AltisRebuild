@@ -44,7 +44,7 @@ class CarShops {
             { "B_Truck_01_medical_F", 35000, { "" }, { "life_mediclevel", "SCALAR", 2 } },
 			{ "C_Hatchback_01_sport_F", 45000, { "" }, { "life_mediclevel", "SCALAR", 2 } },
 			{ "C_SUV_01_F", 10000, { "" }, { "life_mediclevel", "SCALAR", 1 } },
-			{ "C_Van_01_box_F", 20000, { "" }, { "life_mediclevel", "SCALAR", 1 } }
+			{ "C_Van_01_box_F", 20000, { "" }, { "life_mediclevel", "SCALAR", 1 } },
 			{ "I_MRAP_03_F", 50000, { "" }, { "life_mediclevel", "SCALAR", 3 } }
         };
     };
