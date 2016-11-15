@@ -33,13 +33,46 @@ switch(playerSide) do {
 		};
 	};
 	case west: {
-		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\cop_uniform.jpg"];
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_coplevel) = 0 then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_uniform"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_coplevel) = 1 then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_uniform_1"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_coplevel) = 2 then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_uniform_5"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_coplevel) = 3 then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_uniform_6"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_coplevel) = 4 then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_uniform_8"];
+		};
+		if(uniform player == "U_NikosBody") then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\cop_court"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam_worn") then {
+			player setObjectTextureGlobal [0, "textures\POLICE\REGULAR\whitelist"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam") then {
+			player setObjectTextureGlobal [0, "textures\POLICE\SRT\blue"];
+		};
+		if(uniform player == "U_B_CombatUniform_mcam_vest") then {
+			player setObjectTextureGlobal [0, "textures\POLICE\SRT\black"];
 		};
 	};
 	case independent: {
-		if(uniform player == "U_Rangemaster") then {
-			player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_medlevel) = 0 then {
+			player setObjectTextureGlobal [0, "textures\MEDIC\EMS\lvl1_medic"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_medlevel) = 1 then {
+			player setObjectTextureGlobal [0, "textures\MEDIC\EMS\lvl1_medic"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_medlevel) = 2 then {
+			player setObjectTextureGlobal [0, "textures\MEDIC\EMS\lvl4_medic"];
+		};
+		if(uniform player == "U_Rangemaster") && (FETCH_CONST(life_medlevel) = 3 then {
+			player setObjectTextureGlobal [0, "textures\MEDIC\EMS\doctor_uniform"];
 		};
 	};
 };
