@@ -9,7 +9,7 @@
 class VirtualShops {
     //Virtual Shops
     class market {
-        name = "STR_Shops_Market";
+        name = "Coles";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -17,7 +17,7 @@ class VirtualShops {
     };
 
     class rebel {
-        name = "STR_Shops_Rebel";
+        name = "Rebel Store";
         side = "civ";
         license = "rebel";
         level[] = { "", "", -1, "" };
@@ -25,7 +25,7 @@ class VirtualShops {
     };
 
     class gang {
-        name = "STR_Shops_Gang";
+        name = "Gang Shop";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -33,7 +33,7 @@ class VirtualShops {
     };
 
     class wongs {
-        name = "STR_Shops_Wongs";
+        name = "Noddle Box";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -41,7 +41,7 @@ class VirtualShops {
     };
 
     class coffee {
-        name = "STR_Shops_Coffee";
+        name = "HeBrews";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -49,7 +49,7 @@ class VirtualShops {
     };
 
     class f_station_coffee {
-        name = "STR_Shop_Station_Coffee";
+        name = "Krispy kreme";
         side = "";
         license = "";
         level[] = { "", "", -1, "" };
@@ -57,7 +57,7 @@ class VirtualShops {
     };
 
     class drugdealer {
-        name = "STR_Shops_DrugDealer";
+        name = "Pablo Escobars Drug Imperioum";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -65,7 +65,7 @@ class VirtualShops {
     };
 
     class oil {
-        name = "STR_Shops_Oil";
+        name = "Castrol";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -73,7 +73,7 @@ class VirtualShops {
     };
 
     class fishmarket {
-        name = "STR_Shops_FishMarket";
+        name = "The Co-op";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -81,7 +81,7 @@ class VirtualShops {
     };
 
     class glass {
-        name = "STR_Shops_Glass";
+        name = "Glass Trader";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -89,7 +89,7 @@ class VirtualShops {
     };
 
     class iron  {
-        name = "STR_Shops_Minerals";
+        name = "BHP";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -97,7 +97,7 @@ class VirtualShops {
     };
 
     class diamond {
-        name = "STR_Shops_Diamond";
+        name = "Australian Diamond Brokers";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -105,7 +105,7 @@ class VirtualShops {
     };
 
     class salt {
-        name = "STR_Shops_Salt";
+        name = "Australian salt works";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -113,7 +113,7 @@ class VirtualShops {
     };
 
     class cement {
-        name = "STR_Shops_Cement";
+        name = "Boral";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -121,7 +121,7 @@ class VirtualShops {
     };
 
     class gold {
-        name = "STR_Shops_Gold";
+        name = "Australian Mint";
         side = "civ";
         license = "";
         level[] = { "", "", -1, "" };
@@ -129,7 +129,7 @@ class VirtualShops {
     };
 
     class cop {
-        name = "STR_Shops_Cop";
+        name = "Police Store";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
@@ -155,7 +155,7 @@ class VirtualItems {
     //Misc
     class pickaxe {
         variable = "pickaxe";
-        displayName = "STR_Item_Pickaxe";
+        displayName = "Pickaxe";
         weight = 2;
         buyPrice = 750;
         sellPrice = 350;
@@ -166,7 +166,7 @@ class VirtualItems {
 
     class fuelEmpty {
         variable = "fuelEmpty";
-        displayName = "STR_Item_FuelE";
+        displayName = "Jerrycan Empty";
         weight = 2;
         buyPrice = -1;
         sellPrice = -1;
@@ -177,7 +177,7 @@ class VirtualItems {
 
     class fuelFull {
         variable = "fuelFull";
-        displayName = "STR_Item_FuelF";
+        displayName = "Jerrycan Full";
         weight = 5;
         buyPrice = 850;
         sellPrice = 500;
@@ -188,7 +188,7 @@ class VirtualItems {
 
     class spikeStrip {
         variable = "spikeStrip";
-        displayName = "STR_Item_SpikeStrip";
+        displayName = "SpikeStrip";
         weight = 15;
         buyPrice = 2500;
         sellPrice = 1200;
@@ -199,7 +199,7 @@ class VirtualItems {
 
     class lockpick {
         variable = "lockpick";
-        displayName = "STR_Item_Lockpick";
+        displayName = "Lockpick";
         weight = 1;
         buyPrice = 150;
         sellPrice = 75;
@@ -210,7 +210,7 @@ class VirtualItems {
 
     class goldbar {
         variable = "goldBar";
-        displayName = "STR_Item_GoldBar";
+        displayName = "GoldBar";
         weight = 12;
         buyPrice = -1;
         sellPrice = 95000;
@@ -221,7 +221,7 @@ class VirtualItems {
 
     class blastingcharge {
         variable = "blastingCharge";
-        displayName = "STR_Item_BCharge";
+        displayName = "Nitro Cell";
         weight = 15;
         buyPrice = 35000;
         sellPrice = 10000;
@@ -232,7 +232,7 @@ class VirtualItems {
 
     class boltcutter {
         variable = "boltCutter";
-        displayName = "STR_Item_BCutter";
+        displayName = "Bolt Cutter";
         weight = 5;
         buyPrice = 7500;
         sellPrice = 1000;
@@ -243,7 +243,7 @@ class VirtualItems {
 
     class defusekit {
         variable = "defuseKit";
-        displayName = "STR_Item_DefuseKit";
+        displayName = "Bomb DefuseKit";
         weight = 2;
         buyPrice = 2500;
         sellPrice = -1;
@@ -254,7 +254,7 @@ class VirtualItems {
 
     class storagesmall {
         variable = "storageSmall";
-        displayName = "STR_Item_StorageBS";
+        displayName = "Small Storage";
         weight = 5;
         buyPrice = 75000;
         sellPrice = -1;
@@ -265,7 +265,7 @@ class VirtualItems {
 
     class storagebig {
         variable = "storageBig";
-        displayName = "STR_Item_StorageBL";
+        displayName = "Storage Large";
         weight = 10;
         buyPrice = 150000;
         sellPrice = -1;
@@ -277,7 +277,7 @@ class VirtualItems {
     //Mined Items
     class oil_unprocessed {
         variable = "oilUnprocessed";
-        displayName = "STR_Item_OilU";
+        displayName = "Unprocessed Oil";
         weight = 7;
         buyPrice = -1;
         sellPrice = -1;
@@ -288,7 +288,7 @@ class VirtualItems {
 
     class oil_processed {
         variable = "oilProcessed";
-        displayName = "STR_Item_OilP";
+        displayName = "Processed Oil";
         weight = 6;
         buyPrice = -1;
         sellPrice = 3200;
@@ -299,7 +299,7 @@ class VirtualItems {
 
     class copper_unrefined {
         variable = "copperUnrefined";
-        displayName = "STR_Item_CopperOre";
+        displayName = "Copper Ore";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -310,7 +310,7 @@ class VirtualItems {
 
     class copper_refined {
         variable = "copperRefined";
-        displayName = "STR_Item_CopperIngot";
+        displayName = "Copper Ingot";
         weight = 3;
         buyPrice = -1;
         sellPrice = 1500;
@@ -321,7 +321,7 @@ class VirtualItems {
 
     class iron_unrefined {
         variable = "ironUnrefined";
-        displayName = "STR_Item_IronOre";
+        displayName = "Iron Ore";
         weight = 5;
         buyPrice = -1;
         sellPrice = -1;
@@ -332,7 +332,7 @@ class VirtualItems {
 
     class iron_refined {
         variable = "ironRefined";
-        displayName = "STR_Item_IronIngot";
+        displayName = "Iron Ingot";
         weight = 3;
         buyPrice = -1;
         sellPrice = 3200;
@@ -343,7 +343,7 @@ class VirtualItems {
 
     class salt_unrefined {
         variable = "saltUnrefined";
-        displayName = "STR_Item_Salt";
+        displayName = "Unrefined Salt";
         weight = 3;
         buyPrice = -1;
         sellPrice = -1;
@@ -354,7 +354,7 @@ class VirtualItems {
 
     class salt_refined {
         variable = "saltRefined";
-        displayName = "STR_Item_SaltR";
+        displayName = "Refined Salt";
         weight = 1;
         buyPrice = -1;
         sellPrice = 1450;
@@ -365,7 +365,7 @@ class VirtualItems {
 
     class sand {
         variable = "sand";
-        displayName = "STR_Item_Sand";
+        displayName = "Sand";
         weight = 3;
         buyPrice = -1;
         sellPrice = -1;
@@ -376,7 +376,7 @@ class VirtualItems {
 
     class glass {
         variable = "glass";
-        displayName = "STR_Item_Glass";
+        displayName = "Glass";
         weight = 1;
         buyPrice = -1;
         sellPrice = 1450;
@@ -387,7 +387,7 @@ class VirtualItems {
 
     class diamond_uncut {
         variable = "diamondUncut";
-        displayName = "STR_Item_DiamondU";
+        displayName = "Diamond Uncut";
         weight = 4;
         buyPrice = -1;
         sellPrice = 750;
@@ -398,7 +398,7 @@ class VirtualItems {
 
     class diamond_cut {
         variable = "diamondCut";
-        displayName = "STR_Item_DiamondC";
+        displayName = "Diamond Cut";
         weight = 2;
         buyPrice = -1;
         sellPrice = 2000;
@@ -409,7 +409,7 @@ class VirtualItems {
 
     class rock {
         variable = "rock";
-        displayName = "STR_Item_Rock";
+        displayName = "Rock";
         weight = 6;
         buyPrice = -1;
         sellPrice = -1;
@@ -420,7 +420,7 @@ class VirtualItems {
 
     class cement {
         variable = "cement";
-        displayName = "STR_Item_CementBag";
+        displayName = "CementBag";
         weight = 5;
         buyPrice = -1;
         sellPrice = 1950;
@@ -432,7 +432,7 @@ class VirtualItems {
     //Drugs
     class heroin_unprocessed {
         variable = "heroinUnprocessed";
-        displayName = "STR_Item_HeroinU";
+        displayName = "Unprocessed Heroin";
         weight = 6;
         buyPrice = -1;
         sellPrice = -1;
@@ -444,7 +444,7 @@ class VirtualItems {
 
     class heroin_processed {
         variable = "heroinProcessed";
-        displayName = "STR_Item_HeroinP";
+        displayName = "Processed Heroin";
         weight = 4;
         buyPrice = 3500;
         sellPrice = 2560;
@@ -455,7 +455,7 @@ class VirtualItems {
 
     class cannabis {
         variable = "cannabis";
-        displayName = "STR_Item_Cannabis";
+        displayName = "Cannabis";
         weight = 4;
         buyPrice = -1;
         sellPrice = -1;
@@ -467,7 +467,7 @@ class VirtualItems {
 
     class marijuana {
         variable = "marijuana";
-        displayName = "STR_Item_Marijuana";
+        displayName = "Marijuana";
         weight = 3;
         buyPrice = 2800;
         sellPrice = 2350;
@@ -478,7 +478,7 @@ class VirtualItems {
 
     class cocaine_unprocessed {
         variable = "cocaineUnprocessed";
-        displayName = "STR_Item_CocaineU";
+        displayName = "Unprocessed Cocaine";
         weight = 6;
         buyPrice = -1;
         sellPrice = -1;
@@ -490,7 +490,7 @@ class VirtualItems {
 
     class cocaine_processed {
         variable = "cocaineProcessed";
-        displayName = "STR_Item_CocaineP";
+        displayName = "Cocaine";
         weight = 4;
         buyPrice = -1;
         sellPrice = 5000;
@@ -502,7 +502,7 @@ class VirtualItems {
     //Drink
     class redgull {
         variable = "redgull";
-        displayName = "STR_Item_RedGull";
+        displayName = "RedGull";
         weight = 1;
         buyPrice = 1500;
         sellPrice = 200;
@@ -513,7 +513,7 @@ class VirtualItems {
 
     class coffee {
         variable = "coffee";
-        displayName = "STR_Item_Coffee";
+        displayName = "Coffee";
         weight = 1;
         buyPrice = 10;
         sellPrice = 5;
@@ -524,7 +524,7 @@ class VirtualItems {
 
     class waterBottle {
         variable = "waterBottle";
-        displayName = "STR_Item_WaterBottle";
+        displayName = "WaterBottle";
         weight = 1;
         buyPrice = 10;
         sellPrice = 5;
@@ -536,7 +536,7 @@ class VirtualItems {
     //Food
     class apple {
         variable = "apple";
-        displayName = "STR_Item_Apple";
+        displayName = "Apple";
         weight = 1;
         buyPrice = 65;
         sellPrice = 50;
@@ -547,7 +547,7 @@ class VirtualItems {
 
     class peach {
         variable = "peach";
-        displayName = "STR_Item_Peach";
+        displayName = "Peach";
         weight = 1;
         buyPrice = 68;
         sellPrice = 55;
@@ -558,7 +558,7 @@ class VirtualItems {
 
     class tbacon {
         variable = "tbacon";
-        displayName = "STR_Item_TBacon";
+        displayName = "Tatical Bacon";
         weight = 1;
         buyPrice = 75;
         sellPrice = 25;
@@ -569,7 +569,7 @@ class VirtualItems {
 
     class donuts {
         variable = "donuts";
-        displayName = "STR_Item_Donuts";
+        displayName = "Donuts";
         weight = 1;
         buyPrice = 120;
         sellPrice = 60;
@@ -580,7 +580,7 @@ class VirtualItems {
 
     class rabbit_raw {
         variable = "rabbitRaw";
-        displayName = "STR_Item_RabbitRaw";
+        displayName = "Raq Rabbit Meat";
         weight = 2;
         buyPrice = -1;
         sellPrice = 95;
@@ -591,7 +591,7 @@ class VirtualItems {
 
     class rabbit {
         variable = "rabbit";
-        displayName = "STR_Item_Rabbit";
+        displayName = "Cooked Rabbit Meat";
         weight = 1;
         buyPrice = 150;
         sellPrice = 115;
@@ -602,7 +602,7 @@ class VirtualItems {
 
     class salema_raw {
         variable = "salemaRaw";
-        displayName = "STR_Item_SalemaRaw";
+        displayName = "Raw Salema";
         weight = 2;
         buyPrice = -1;
         sellPrice = 45;
@@ -613,7 +613,7 @@ class VirtualItems {
 
     class salema {
         variable = "salema";
-        displayName = "STR_Item_Salema";
+        displayName = "Cooked Salema";
         weight = 1;
         buyPrice = 75;
         sellPrice = 55;
@@ -624,7 +624,7 @@ class VirtualItems {
 
     class ornate_raw {
         variable = "ornateRaw";
-        displayName = "STR_Item_OrnateRaw";
+        displayName = "Raw Ornate";
         weight = 2;
         buyPrice = -1;
         sellPrice = 40;
@@ -635,7 +635,7 @@ class VirtualItems {
 
     class ornate {
         variable = "ornate";
-        displayName = "STR_Item_Ornate";
+        displayName = "Cooked Ornate";
         weight = 1;
         buyPrice = 175;
         sellPrice = 150;
@@ -646,7 +646,7 @@ class VirtualItems {
 
     class mackerel_raw {
         variable = "mackerelRaw";
-        displayName = "STR_Item_MackerelRaw";
+        displayName = "Raw Mackerel";
         weight = 4;
         buyPrice = -1;
         sellPrice = 175;
@@ -657,7 +657,7 @@ class VirtualItems {
 
     class mackerel {
         variable = "mackerel";
-        displayName = "STR_Item_Mackerel";
+        displayName = "Cooked Mackerel";
         weight = 2;
         buyPrice = 250;
         sellPrice = 200;
@@ -668,7 +668,7 @@ class VirtualItems {
 
     class tuna_raw {
         variable = "tunaRaw";
-        displayName = "STR_Item_TunaRaw";
+        displayName = "Raw Tuna";
         weight = 6;
         buyPrice = -1;
         sellPrice = 700;
@@ -679,7 +679,7 @@ class VirtualItems {
 
     class tuna {
         variable = "tuna";
-        displayName = "STR_Item_Tuna";
+        displayName = "Tuna";
         weight = 3;
         buyPrice = 1250;
         sellPrice = 1000;
@@ -690,7 +690,7 @@ class VirtualItems {
 
     class mullet_raw {
         variable = "mulletRaw";
-        displayName = "STR_Item_MulletRaw";
+        displayName = "Raw Mullet";
         weight = 4;
         buyPrice = -1;
         sellPrice = 250;
@@ -701,7 +701,7 @@ class VirtualItems {
 
     class mullet {
         variable = "mullet";
-        displayName = "STR_Item_Mullet";
+        displayName = "Mullet";
         weight = 2;
         buyPrice = 600;
         sellPrice = 400;
@@ -712,7 +712,7 @@ class VirtualItems {
 
     class catshark_raw {
         variable = "catsharkRaw";
-        displayName = "STR_Item_CatSharkRaw";
+        displayName = "Raw CatShark";
         weight = 6;
         buyPrice = -1;
         sellPrice = 300;
@@ -723,7 +723,7 @@ class VirtualItems {
 
     class catshark {
         variable = "catshark";
-        displayName = "STR_Item_CatShark";
+        displayName = "CatShark";
         weight = 3;
         buyPrice = 750;
         sellPrice = 500;
@@ -734,7 +734,7 @@ class VirtualItems {
 
     class turtle_raw {
         variable = "turtleRaw";
-        displayName = "STR_Item_TurtleRaw";
+        displayName = "Raw Turtle";
         weight = 6;
         buyPrice = -1;
         sellPrice = 3000;
@@ -745,7 +745,7 @@ class VirtualItems {
 
     class turtle_soup {
         variable = "turtleSoup";
-        displayName = "STR_Item_TurtleSoup";
+        displayName = "Turtle Soup";
         weight = 2;
         buyPrice = 1000;
         sellPrice = 750;
@@ -756,7 +756,7 @@ class VirtualItems {
 
     class hen_raw {
         variable = "henRaw";
-        displayName = "STR_Item_HenRaw";
+        displayName = "Raw Hen";
         weight = 1;
         buyPrice = -1;
         sellPrice = 65;
@@ -767,7 +767,7 @@ class VirtualItems {
 
     class hen {
         variable = "hen";
-        displayName = "STR_Item_Hen";
+        displayName = "Hen";
         weight = 1;
         buyPrice = 115;
         sellPrice = 85;
@@ -778,7 +778,7 @@ class VirtualItems {
 
     class rooster_raw {
         variable = "roosterRaw";
-        displayName = "STR_Item_RoosterRaw";
+        displayName = "Raw Rooster";
         weight = 1;
         buyPrice = -1;
         sellPrice = 65;
@@ -789,7 +789,7 @@ class VirtualItems {
 
     class rooster {
         variable = "rooster";
-        displayName = "STR_Item_Rooster";
+        displayName = "Rooster";
         weight = 115;
         buyPrice = 90;
         sellPrice = 85;
@@ -800,7 +800,7 @@ class VirtualItems {
 
     class sheep_raw {
         variable = "sheepRaw";
-        displayName = "STR_Item_SheepRaw";
+        displayName = "Raw Sheep";
         weight = 2;
         buyPrice = -1;
         sellPrice = 95;
@@ -811,7 +811,7 @@ class VirtualItems {
 
     class sheep {
         variable = "sheep";
-        displayName = "STR_Item_Sheep";
+        displayName = "Sheep";
         weight = 2;
         buyPrice = 155;
         sellPrice = 115;
@@ -822,7 +822,7 @@ class VirtualItems {
 
     class goat_raw {
         variable = "goatRaw";
-        displayName = "STR_Item_GoatRaw";
+        displayName = "Raw Goat";
         weight = 2;
         buyPrice = -1;
         sellPrice = 115;
@@ -833,7 +833,7 @@ class VirtualItems {
 
     class goat {
         variable = "goat";
-        displayName = "STR_Item_Goat";
+        displayName = "Goat";
         weight = 2;
         buyPrice = 175;
         sellPrice = 135;
