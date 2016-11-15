@@ -12,104 +12,104 @@ class CarShops {
     *
     *   BLUFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST
     *   OPFOR Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EAST
-    *   Independent Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
+    *   Independent Vehicle classnames can be found here: https://communityI_MRAP_03_F.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
     *   Civilian Vehicle classnames can be found here: https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV
     */
     class civ_car {
         side = "civ";
         vehicles[] = {
             { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },//Quad Bike
-            { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },
-            { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },
-            { "C_SUV_01_F", 35000, { "driver" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 60000, { "driver" }, { "", "", -1 } },
-            { "C_Van_01_transport_F", 40000, { "driver" }, { "", "", -1 } }
+            { "C_Hatchback_01_F", 9500, { "driver" }, { "", "", -1 } },//Hatchback
+            { "C_Offroad_01_F", 12500, { "driver" }, { "", "", -1 } },//Offroad
+            { "C_SUV_01_F", 35000, { "driver" }, { "", "", -1 } },//SUV
+            { "C_Hatchback_01_sport_F", 60000, { "driver" }, { "", "", -1 } },//Hatchback sports
+            { "C_Van_01_transport_F", 40000, { "driver" }, { "", "", -1 } }//Truck
         };
     };
 
     class kart_shop {
         side = "civ";
         vehicles[] = {
-            { "C_Kart_01_Blu_F", 15000 , { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Fuel_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Red_F", 15000, { "driver" }, { "", "", -1 } },
-            { "C_Kart_01_Vrana_F", 15000, { "driver" }, { "", "", -1 } }
+            { "C_Kart_01_Blu_F", 15000 , { "driver" }, { "", "", -1 } },//Kart (Bluking)
+            { "C_Kart_01_Fuel_F", 15000, { "driver" }, { "", "", -1 } },//Kart (Fuel)
+            { "C_Kart_01_Red_F", 15000, { "driver" }, { "", "", -1 } },//Kart (Redstone)
+            { "C_Kart_01_Vrana_F", 15000, { "driver" }, { "", "", -1 } }//Kart (Vrana)
         };
     };
 
     class med_shop {
         side = "med";
         vehicles[] = {
-            { "C_Offroad_01_F", 1500, { "" }, { "", "", -1 } },
-            { "B_Truck_01_medical_F", 35000, { "" }, { "life_mediclevel", "SCALAR", 2 } },
-			{ "C_Hatchback_01_sport_F", 45000, { "" }, { "life_mediclevel", "SCALAR", 2 } },
-			{ "C_SUV_01_F", 10000, { "" }, { "life_mediclevel", "SCALAR", 1 } },
-			{ "C_Van_01_box_F", 20000, { "" }, { "life_mediclevel", "SCALAR", 1 } }
-			{ "I_MRAP_03_F", 50000, { "" }, { "life_mediclevel", "SCALAR", 3 } }
+            { "C_Offroad_01_F", 1500, { "" }, { "", "", -1 } },//Offroad
+            { "B_Truck_01_medical_F", 35000, { "" }, { "life_mediclevel", "SCALAR", 2 } },//HEMTT Medical
+			{ "C_Hatchback_01_sport_F", 45000, { "" }, { "life_mediclevel", "SCALAR", 2 } },//Hatchback Sports
+			{ "C_SUV_01_F", 10000, { "" }, { "life_mediclevel", "SCALAR", 1 } },//SUV
+			{ "C_Van_01_box_F", 20000, { "" }, { "life_mediclevel", "SCALAR", 1 } }//BoxTruck
+			{ "I_MRAP_03_F", 50000, { "" }, { "life_mediclevel", "SCALAR", 3 } }//Strider
         };
     };
 
     class med_air_hs {
         side = "med";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 50000, { "mAir" }, { "life_mediclevel", "SCALAR", 1 } },
-            { "O_Heli_Light_02_unarmed_F", 75000, { "mAir" }, { "life_mediclevel", "SCALAR", 2 } }
+            { "B_Heli_Light_01_F", 50000, { "mAir" }, { "life_mediclevel", "SCALAR", 1 } },//MH-9 Hummingbird
+            { "O_Heli_Light_02_unarmed_F", 75000, { "mAir" }, { "life_mediclevel", "SCALAR", 2 } }//PO-30 Orca (Unarmed)
         };
     };
 
     class civ_truck {
         side = "civ";
         vehicles[] = {
-            { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_transport_F", 100000, { "trucking" }, { "", "", -1 } },
-            { "I_Truck_02_covered_F", 120000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_transport_F", 700000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },
-            { "B_Truck_01_box_F", 1100000, { "trucking" }, { "", "", -1 } },
-            { "O_Truck_03_device_F", 900000, { "trucking" }, { "", "", -1 } }
+            { "C_Van_01_box_F", 60000, { "trucking" }, { "", "", -1 } },//BoxTruck
+            { "I_Truck_02_transport_F", 100000, { "trucking" }, { "", "", -1 } },//Zamak Transport
+            { "I_Truck_02_covered_F", 120000, { "trucking" }, { "", "", -1 } },//Zamak Transport (Covered)
+            { "B_Truck_01_transport_F", 700000, { "trucking" }, { "", "", -1 } },//HEMTT Transport
+            { "O_Truck_03_transport_F", 200000, { "trucking" }, { "", "", -1 } },//Tempest Transport
+            { "O_Truck_03_covered_F", 250000, { "trucking" }, { "", "", -1 } },//Tempest Transport (Covered)
+            { "B_Truck_01_box_F", 1100000, { "trucking" }, { "", "", -1 } },//HEMTT Box
+            { "O_Truck_03_device_F", 900000, { "trucking" }, { "", "", -1 } }//Tempest Device
         };
     };
 
     class reb_car {
         side = "civ";
         vehicles[] = {
-            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_F", 15000, { "" }, { "", "", -1 } },
-            { "O_MRAP_02_F", 150000, { "" }, { "", "", -1 } },
-			{ "O_MRAP_03_F", 350000, { "" }, { "", "", -1 } },
-            { "B_Heli_Light_01_F", 350000, { "" }, { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", 750000 , { "rebel" }, { "", "", -1 } }
-			{ "B_Heli_Light_03_F", 500000 , { "rebel" }, { "", "", -1 } }
-			{ "O_Heli_Transport_04_bench_F", 800000 , { "rebel" }, { "", "", -1 } }
-			{ "O_Heli_Transport_04_covered_F", 900000 , { "rebel" }, { "", "", -1 } }
-			{ "O_heli_Transport_04_F", 1500000 , { "rebel" }, { "", "", -1 } }
-			{ "O_Heli_Attack_02_black_F", 1000000 , { "rebel" }, { "", "", -1 } }
-			{ "B_T_VTOL_01_infantry_F", 2000000 , { "rebel" }, { "", "", -1 } }
-			{ "B_T_LSV_01_unarmed_F", 750000 , { "rebel" }, { "", "", -1 } }
+            { "B_Quadbike_01_F", 2500, { "" }, { "", "", -1 } },//Quad
+            { "B_G_Offroad_01_F", 15000, { "" }, { "", "", -1 } },//Offroad
+            { "O_MRAP_02_F", 150000, { "" }, { "", "", -1 } },//Ifrit
+			{ "I_MRAP_03_F", 350000, { "" }, { "", "", -1 } },//Strider
+            { "B_Heli_Light_01_F", 350000, { "" }, { "", "", -1 } },//MH-9 Hummingbird
+            { "B_G_Offroad_01_armed_F", 750000 , { "rebel" }, { "", "", -1 } }//Offroad (Armed)
+			{ "I_Heli_Light_03_F", 500000 , { "rebel" }, { "", "", -1 } }//WY-55 Hellcat
+			{ "O_Heli_Transport_04_bench_F", 800000 , { "rebel" }, { "", "", -1 } }//Mi-290 Taru (Bench)
+			{ "O_Heli_Transport_04_covered_F", 900000 , { "rebel" }, { "", "", -1 } }//Mi-290 Taru (Transport)
+			{ "O_heli_Transport_04_F", 1500000 , { "rebel" }, { "", "", -1 } }//Mi-290 Taru (Fuel)
+			{ "O_Heli_Attack_02_black_F", 1000000 , { "rebel" }, { "", "", -1 } }//Mi-48 Kajman (Black)
+			{ "B_T_VTOL_01_infantry_F", 2000000 , { "rebel" }, { "", "", -1 } }//V-44 X Blackfish (Infantry Transport)
+			{ "B_T_LSV_01_unarmed_F", 750000 , { "rebel" }, { "", "", -1 } }//	Prowler (Unarmed
         };
     };
 
     class cop_car {
         side = "cop";
         vehicles[] = {
-            { "C_Offroad_01_F", 5000, { "" }, { "", "", -1 } },
-            { "C_SUV_01_F", 20000, { "" }, { "", "", -1 } },
-            { "C_Hatchback_01_sport_F", 50000, { "" }, { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_F", 50000, { "" }, { "life_coplevel", "SCALAR", 3 } },
-            { "B_MRAP_01_hmg_F", 750000, { "" }, { "life_coplevel", "SCALAR", 5 } },
-			{ "O_T_LSV_02_unarmed_F", 50000, { "" }, { "life_coplevel", "SCALAR", 4 } },
-			{ "I_Truck_02_covered_F", 50000, { "" }, { "life_coplevel", "SCALAR", 4 } },
-			{ "I_MRAP_03_F", 100000, { "" }, { "life_coplevel", "SCALAR", 4 } },
-			{ "SUV_01_base_black_F", 20000, { "" }, { "life_coplevel", "SCALAR", 3 } }
+            { "C_Offroad_01_F", 5000, { "" }, { "", "", -1 } },//Offroad
+            { "C_SUV_01_F", 20000, { "" }, { "", "", -1 } },//SUV
+            { "C_Hatchback_01_sport_F", 50000, { "" }, { "life_coplevel", "SCALAR", 3 } },//Hatchback Sports
+            { "B_MRAP_01_F", 50000, { "" }, { "life_coplevel", "SCALAR", 3 } },//Hunter
+            { "B_MRAP_01_hmg_F", 750000, { "" }, { "life_coplevel", "SCALAR", 5 } },//Hunter HMG
+			{ "O_T_LSV_02_unarmed_F", 50000, { "" }, { "life_coplevel", "SCALAR", 4 } },//Qilin (Unarmed)
+			{ "I_Truck_02_covered_F", 50000, { "" }, { "life_coplevel", "SCALAR", 4 } },//Zamak Transport (Covered)
+			{ "I_MRAP_03_F", 100000, { "" }, { "life_coplevel", "SCALAR", 4 } },//Strider
+			{ "SUV_01_base_black_F", 20000, { "" }, { "life_coplevel", "SCALAR", 3 } }//SUV
         };
     };
 
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } }
+            { "B_Heli_Light_01_F", 253000, { "pilot" }, { "", "", -1 } },//MH-9 Hummingbird
+            { "O_Heli_Light_02_unarmed_F", 750000, { "pilot" }, { "", "", -1 } }//	PO-30 Orca (Unarmed)
         };
     };
 
@@ -458,7 +458,7 @@ class LifeCfgVehicles {
                 "#(argb,8,8,3)color(0.6,0.3,0.01,1)"
             } },
             { "Police", "cop", {
-                "#(ai,64,64,1)Fresnel(1.3,7)"
+                "textures\POLICE\REGULAR\offroad_01_sg_01.jpg"
             } }
         };
     };
@@ -578,8 +578,9 @@ class LifeCfgVehicles {
                 "\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa",
                 "\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"
             } },
-            { "Black", "cop", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            { "Police", "cop", {
+                "testures\POLICE\REGULAR\zamak_front_aidan.jpg",
+				"testures\POLICE\REGULAR\zamak_front_aidan.jpg"
             } }
         };
     };
