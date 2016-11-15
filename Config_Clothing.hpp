@@ -14,7 +14,7 @@
 */
 class Clothing {
     class bruce {
-        title = "STR_Shops_C_Bruce";
+        title = "Kmart";
         license = "";
         side = "civ";
         uniforms[] = {
@@ -108,7 +108,7 @@ class Clothing {
     };
 
     class cop {
-        title = "STR_Shops_C_Police";
+        title = "Police Stores";
         license = "";
         side = "cop";
         uniforms[] = {
@@ -156,7 +156,7 @@ class Clothing {
     };
 
     class dive {
-        title = "STR_Shops_C_Diving";
+        title = "Police Diving Shop";
         license = "dive";
         side = "civ";
         uniforms[] = {
@@ -180,7 +180,7 @@ class Clothing {
     };
 
     class gun_clothing {
-        title = "STR_Shops_C_Gun";
+        title = "Downunder armaments";
         license = "gun";
         side = "civ";
         uniforms[] = {
@@ -202,7 +202,7 @@ class Clothing {
     };
 
     class gang_clothing {
-        title = "STR_Shops_C_Gang";
+        title = "Gang Store";
         license = "";
         side = "civ";
         uniforms[] = {
@@ -224,7 +224,7 @@ class Clothing {
     };
 
     class med_clothing {
-        title = "STR_MAR_EMS_Clothing_Shop";
+        title = "EMS Stores";
         license = "";
         side = "med";
         uniforms[] = {
@@ -249,7 +249,7 @@ class Clothing {
     };
 
     class reb {
-        title = "STR_Shops_C_Rebel";
+        title = "Rebel Cloting";
         license = "rebel";
         side = "civ";
         uniforms[] = {
@@ -333,7 +333,7 @@ class Clothing {
     };
 
     class kart {
-        title = "STR_Shops_C_Kart";
+        title = "KartMart";
         license = "";
         side = "civ";
         uniforms[] = {
