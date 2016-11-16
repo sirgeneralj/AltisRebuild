@@ -203,7 +203,7 @@ class cop_command {
 			{ "arifle_MXC_Black_F", "", 15000, -1 },
             { "arifle_MXM_Black_F", "", 30000, -1 },
 			{ "srifle_EBR_F", "", 35000, -1 },
-			{ "srifle_LRR_F	", "", 100000, -1 },
+			{ "srifle_LRR_F", "", 100000, -1 },
 			{ "arifle_MX_GL_Black_F", "", 25000, -1 },
 			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },
 			{ "arifle_ARX_blk_F", "", 50000, -1 },
@@ -234,8 +234,7 @@ class cop_command {
 			{ "10Rnd_338_Mag", "", 750 },
 			{ "200Rnd_556x45_Box_F", "", 800 },
 			{ "100Rnd_65x39_caseless_mag", "", 550},
-			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 },
-		
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 }
         };
     };
 

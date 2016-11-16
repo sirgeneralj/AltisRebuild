@@ -740,7 +740,7 @@ class LifeCfgVehicles {
 			{ "Standard", "cop", {
 				"textures\POLICE\REGULAR\fleet_hunter_front.jpg",
 				"textures\POLICE\REGULAR\fleet_hunter_back.jpg"
-			} }
+			} },
             { "Black", "cop", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)",
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
