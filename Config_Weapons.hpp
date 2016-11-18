@@ -189,39 +189,66 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_mag", "", 100, -1 }
         };
     };
-class cop_command {
+
+    class cop_command {
         name = "Altis Command Shop";
         side = "cop";
         license = "";
         level[] = { "life_coplevel", "SCALAR", 4, "You must be a Command Rank!" };
         items[] = {
-            { "hgun_ACPC2_F", "", 7500, -1 },
-            { "SMG_02_ACO_F", "", 10000, -1 },
-			{ "srifle_GM6_F", "", 100000, -1 },
-			{ "launch_Titan_F", "", 100000, -1 },
-			{ "arifle_MX_Black_F", "", 20000, -1 },
-			{ "arifle_MXC_Black_F", "", 15000, -1 },
-            { "arifle_MXM_Black_F", "", 30000, -1 },
-			{ "srifle_EBR_F", "", 35000, -1 },
-			{ "srifle_LRR_F", "", 100000, -1 },
-			{ "arifle_MX_GL_Black_F", "", 25000, -1 },
-			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },
-			{ "arifle_ARX_blk_F", "", 50000, -1 },
-			{ "MMG_02_black_F", "", 100000, -1 },
-			{ "srifle_DMR_05_blk_F", "", 75000, -1 },
-			{ "srifle_DMR_04_F", "", 75000, -1 },
-			{ "srifle_DMR_03_F", "", 50000, -1 },
-			{ "srifle_DMR_02_F", "", 7500, -1 },
-			{ "LMG_03_F", "", 75000, -1 },
-			{ "arifle_MX_SW_Black_F", "", 35000, -1 },
-            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
-            { "optic_Arco", "", 2500, -1 },
-            { "muzzle_snds_H", "", 2750, -1 }
+            { "hgun_ACPC2_F", "", 7500, -1 },//ACP-C2
+            { "SMG_02_ACO_F", "", 10000, -1 },//Sting
+			{ "srifle_GM6_F", "", 100000, -1 },//Lynx
+			{ "launch_Titan_F", "", 100000, -1 },//Titan aa
+			{ "arifle_MX_Black_F", "", 20000, -1 },//MX
+			{ "arifle_MXC_Black_F", "", 15000, -1 },//MXC
+                        { "arifle_MXM_Black_F", "", 30000, -1 },//MXC
+			{ "srifle_EBR_F", "", 35000, -1 },//MK18
+			{ "srifle_LRR_F	", "", 100000, -1 },//M32O
+			{ "arifle_MX_GL_Black_F", "", 25000, -1 },//MXGL
+			{ "arifle_SPAR_01_blk_F", "", 20000, -1 },//SPAR16
+			{ "arifle_ARX_blk_F", "", 50000, -1 },//TYPE115
+			{ "MMG_02_black_F", "", 100000, -1 },//SPMG
+			{ "srifle_DMR_05_blk_F", "", 75000, -1 },//CYRUS
+			{ "srifle_DMR_04_F", "", 75000, -1 },//ASP
+			{ "srifle_DMR_03_F", "", 50000, -1 },//MK1
+			{ "srifle_DMR_02_F", "", 7500, -1 },//MAR10
+			{ "LMG_03_F", "", 75000, -1 },//LIM
+			{ "arifle_MX_SW_Black_F", "", 35000, -1 },//MXSW
+                        { "HandGrenade_Stone", "Flashbang", 1700, -1 },//Flashbang
+                        { "muzzle_snds_H", "", 2750, -1 },//6.5 Suppressor 
+			{ "muzzle_snds_M", "", 2750, -1 },//5.56 Suppressor 
+			{ "muzzle_snds_L", "", 2750, -1 },//9mm Suppressor
+			{ "muzzle_snds_B", "", 2750, -1 },//7.62 Suppressor 
+			{ "muzzle_snds_338_black", "", 2750, -1 },//338 Suppressor 
+			{ "muzzle_snds_acp", "", 2750, -1 },//45acp Suppressor
+			{ "muzzle_snds_93mmg", "", 2750, -1 },//9.3 Suppressor
+			{ "muzzle_snds_65_TI_blk_F", "", 2750, -1 },//6.5 Stealth Suppressor
+			{ "optic_Arco_blk_F", "", 2500, -1 },//ARCO
+			{ "optic_Aco", "", 500, -1 },//ACO
+			{ "optic_Hamr", "", 2000, -1 },//RCO
+			{ "optic_Holosight", "", 550, -1 },//Holosight
+			{ "optic_MRCO", "", 1000, -1 },//MRCO
+			{ "optic_LRPS", "", 10000, -1 },//LRPS
+			{ "optic_AMS", "", 2500, -1 },//AMS
+			{ "optic_KHS_blk", "", 2500, -1 },//Kahila
+			{ "optic_DMS", "", 2500, -1 },//DMS
+			{ "Binocular", "", 100, -1 },//Binocular
+			{ "Rangefinder", "", 500, -1 },//Rangefinder
+			{ "Laserdesignator", "", 1000, -1 },//Laserdesignator
+			{ "bipod_01_F_blk", "", 1000, -1 },//Bipod
+			{ "B_UavTerminal", "", 2500, -1 },//UavTerminal
+			{ "NVGoggles_OPFOR", "", 500, -1 },//NVGoggles
+			{ "ItemGPS", "", 250, -1 },//GPS
+			{ "acc_flashlight", "", 250, -1 },//FLashlist
+			{ "acc_pointer_IR", "", 250, -1 },//Laser
+			{ "IEDUrbanBig_Remote_Mag", "", 5000, -1 },//IED
+			
         };
         mags[] = {
-            { "9Rnd_45ACP_Mag", "", 50 },
-            { "30Rnd_9x21_Mag", "", 100 },
-            { "30Rnd_65x39_caseless_mag", "", 500, -1 }
+                        { "9Rnd_45ACP_Mag", "", 50 },
+                        { "30Rnd_9x21_Mag", "", 100 },
+                        { "30Rnd_65x39_caseless_mag", "", 500, -1 }
 			{ "5Rnd_127x108_Mag", "", 1000 },
 			{ "5Rnd_127x108_APDS_Mag", "", 1200 },
 			{ "20Rnd_762x51_Mag", "", 750 },
@@ -234,7 +261,8 @@ class cop_command {
 			{ "10Rnd_338_Mag", "", 750 },
 			{ "200Rnd_556x45_Box_F", "", 800 },
 			{ "100Rnd_65x39_caseless_mag", "", 550},
-			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 }
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 },
+		
         };
     };
 
