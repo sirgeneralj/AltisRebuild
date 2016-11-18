@@ -202,7 +202,7 @@ class WeaponShops {
 			{ "launch_Titan_F", "", 100000, -1 },//Titan aa
 			{ "arifle_MX_Black_F", "", 20000, -1 },//MX
 			{ "arifle_MXC_Black_F", "", 15000, -1 },//MXC
-                        { "arifle_MXM_Black_F", "", 30000, -1 },//MXC
+            { "arifle_MXM_Black_F", "", 30000, -1 },//MXC
 			{ "srifle_EBR_F", "", 35000, -1 },//MK18
 			{ "srifle_LRR_F	", "", 100000, -1 },//M32O
 			{ "arifle_MX_GL_Black_F", "", 25000, -1 },//MXGL
@@ -215,8 +215,8 @@ class WeaponShops {
 			{ "srifle_DMR_02_F", "", 7500, -1 },//MAR10
 			{ "LMG_03_F", "", 75000, -1 },//LIM
 			{ "arifle_MX_SW_Black_F", "", 35000, -1 },//MXSW
-                        { "HandGrenade_Stone", "Flashbang", 1700, -1 },//Flashbang
-                        { "muzzle_snds_H", "", 2750, -1 },//6.5 Suppressor 
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },//Flashbang
+            { "muzzle_snds_H", "", 2750, -1 },//6.5 Suppressor 
 			{ "muzzle_snds_M", "", 2750, -1 },//5.56 Suppressor 
 			{ "muzzle_snds_L", "", 2750, -1 },//9mm Suppressor
 			{ "muzzle_snds_B", "", 2750, -1 },//7.62 Suppressor 
@@ -242,13 +242,12 @@ class WeaponShops {
 			{ "ItemGPS", "", 250, -1 },//GPS
 			{ "acc_flashlight", "", 250, -1 },//FLashlist
 			{ "acc_pointer_IR", "", 250, -1 },//Laser
-			{ "IEDUrbanBig_Remote_Mag", "", 5000, -1 },//IED
-			
+			{ "IEDUrbanBig_Remote_Mag", "", 5000, -1 }//IED
         };
         mags[] = {
-                        { "9Rnd_45ACP_Mag", "", 50 },
-                        { "30Rnd_9x21_Mag", "", 100 },
-                        { "30Rnd_65x39_caseless_mag", "", 500, -1 }
+            { "9Rnd_45ACP_Mag", "", 50 },
+            { "30Rnd_9x21_Mag", "", 100 },
+            { "30Rnd_65x39_caseless_mag", "", 500, -1 },
 			{ "5Rnd_127x108_Mag", "", 1000 },
 			{ "5Rnd_127x108_APDS_Mag", "", 1200 },
 			{ "20Rnd_762x51_Mag", "", 750 },
@@ -261,8 +260,7 @@ class WeaponShops {
 			{ "10Rnd_338_Mag", "", 750 },
 			{ "200Rnd_556x45_Box_F", "", 800 },
 			{ "100Rnd_65x39_caseless_mag", "", 550},
-			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 },
-		
+			{ "30Rnd_65x39_caseless_mag_Tracer", "", 600 }
         };
     };
 
